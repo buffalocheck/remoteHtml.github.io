@@ -34,10 +34,7 @@ header {
 	border: 1px black solid;
 	padding: 20px;
 }
-#contact a: hover {
-	color: red;
-	/* it would be good to have this work*/
-}
+
 h1 {
 	padding: 0px 0px 0px 20px;
 	border: 1px black solid;
@@ -50,10 +47,12 @@ a {
 	color: #252287;
 	text-decoration: none;
 	font-weight: bold;
-	/*this (below) should change link text color to RED when hovering but not working. here's a youtube demo:
-https://www.youtube.com/watch?v=uc7FOxOF4sg
-*/
 }
+
+a:hover {
+	color: #ff0000;
+}
+
 p {
 	max-width: 660px;
 	margin: 10px 0px 0px 20px;
