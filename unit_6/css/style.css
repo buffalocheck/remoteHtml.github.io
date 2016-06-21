@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+* { padding:0; margin: 0; box-sizing:border-box; }
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #222;
+	font-size: 1.2em;
+}
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	border: 1px black solid;
+	background-color: #E3DCDC;
+}
+header {
+	border: 1px black solid;
+	background-color: #FFED74;
+	padding: 20px;
+}
+#main {
+	border: 1px black solid;
+	background-color: #FFE2B2;
+}
+#one {
+	border: 1px black solid;
+	background-color: #E89C6C;
+	padding: 20px;
+}
+#two {
+	border: 1px black solid;
+	background-color: #E89C6C;
+	padding: 20px;
+}
+#contact {
+	border: 1px black solid;
+	padding: 20px;
+}
+#contact a: hover {
+	color: red;
+	/* it would be good to have this work*/
+}
+img {
+	width: 100%;
+}
+h1 {
+	padding: 0px 0px 0px 20px;
+	border: 1px black solid;
+}
+h3 {
+	padding: 0px 0px 0px 20px;
+	border: 1px black solid;
+}
+a {
+	color: #252287;
+	text-decoration: none;
+	font-weight: bold;
+}
+p {
+	max-width: 660px;
+	margin: 10px 0px 0px 20px;
+	line-height: 2;
+	border: 1px black solid;
+}
+footer {
+	line-height: .5em;
+	margin: 16px 0 0 0;
+	padding: 16px 0px 16px 20px;
+	border: 1px black solid;
+}
+#two_column {
+	background-color: #ffb7cf;
+	border: 1x black solid;
+	padding: 20px;
+}
+#left {
+	background-color: violet;
+	border: 1x black solid;
+	padding: 20px;
+	float: left;
+	width: 62%;
+}
+#right {
+	background-color: pink;
+	border: 1x black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+/* an interesting treatment of a background w/ gradient overlay:
+--Working method--
+
+.tinted-image {
+  background: 
+    --top, transparent red, faked with gradient--
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    --bottom, image--
+    url(image.jpg);
+}
+*/
