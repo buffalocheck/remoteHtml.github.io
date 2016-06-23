@@ -41,9 +41,8 @@ header {
 	padding: 20px;
 }
 
-#contact a: hover {
+#contact a:hover {
 	color: red;
-	/* it would be good to have this work*/
 }
 
 img {
