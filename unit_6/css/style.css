@@ -18,10 +18,14 @@ header {
 	background-color: #FFED74;
 	padding: 20px;
 }
+article {
+	line-height: 1.2;
+}
 
 #main {
 	border: 1px black solid;
 	background-color: #FFE2B2;
+	line-height: 0;
 }
 
 #one {
@@ -47,6 +51,7 @@ header {
 
 img {
 	width: 100%;
+	line-height: 0;
 }
 
 h1 {
