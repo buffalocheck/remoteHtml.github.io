@@ -10,34 +10,34 @@ body {
 	max-width: 960px;
 	margin: 0 auto;
 	border: 0px black solid;
-	background-color: #E3DCDC;
+	background-color: green;
 }
 
 header {
-	border: 1px black solid;
-	background-color: #FFED74;
+	background-color: #1f1f1f;
 	padding: 20px;
+	color: #E3DCDC;
 }
 article {
 	line-height: 1.2;
 }
 
 #main {
-	border: 1px black solid;
+	border: 0px black solid;
 	background-color: #FFE2B2;
 	line-height: 0;
 }
 
 #one {
-	border: 1px black solid;
-	background-color: #E89C6C;
-	padding: 20px;
+	border: 0px black solid;
+	background-color: #E3DCDC;
+	padding: 20px 0px 10px 20px;
 }
 
 #two {
-	border: 1px black solid;
-	background-color: #E89C6C;
-	padding: 20px;
+	border: 0px black solid;
+	background-color: #E3DCDC;
+	padding: 10px 0px 10px 20px;
 }
 
 #contact-top {
@@ -45,11 +45,13 @@ article {
 	color: white;
 }
 #contact {
-	border: 1px black solid;
-	padding: 20px;
+	border: 0px black solid;
+	padding: 10px 0px 10px 20px;
+	background-color: #1f1f1f;
+	color: #E3DCDC;
 }
 
-#contact a:hover {
+.contact a:hover {
 	color: red;
 }
 
@@ -60,54 +62,33 @@ img {
 
 h1 {
 	padding: 0px 0px 0px 20px;
-	border: 1px black solid;
+	border: 0px black solid;
 }
 
 h3 {
-	padding: 0px 0px 0px 20px;
-	border: 1px black solid;
+	padding: 10px 0px 0px 10px;
+	border: 0px black solid;
 }
 
 a {
-	color: #252287;
-	text-decoration: none;
+	color: #E3DCDC;
+	
 	font-weight: bold;
 }
 
 p {
 	max-width: 660px;
-	margin: 10px 0px 0px 20px;
+	margin: 20px 0px 20px 10px;
 	line-height: 2;
-	border: 1px black solid;
+	border: 0px black solid;
 }
 
 footer {
 	line-height: .5em;
-	margin: 16px 0 0 0;
 	padding: 16px 0px 16px 20px;
-	border: 1px black solid;
-}
-
-#two_column {
-	background-color: #ffb7cf;
-	border: 1x black solid;
-	padding: 20px;
-}
-
-#left {
-	background-color: violet;
-	border: 1x black solid;
-	padding: 20px;
-	float: left;
-	width: 62%;
-}
-
-#right {
-	background-color: pink;
-	border: 1x black solid;
-	padding: 20px;
-	float: right;
-	width: 30%;
+	border: 8px yellow;
+	background-color: #E3DCDC;
+	font-size: .8em;
 }
 
 .clearfix:after{
