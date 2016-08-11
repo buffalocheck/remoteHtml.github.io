@@ -7,7 +7,7 @@ body {
 }
 
 #wrapper {
-	max-width: 960px;
+	max-width: 90%;
 	margin: 0 auto;
 	border: 0px black solid;
 	background-color: green;
@@ -15,7 +15,7 @@ body {
 
 header {
 	background-color: #1f1f1f;
-	padding: 20px;
+	padding: 30px;
 	color: #E3DCDC;
 }
 article {
@@ -51,8 +51,8 @@ article {
 	color: #E3DCDC;
 }
 
-.contact a:hover {
-	color: red;
+#contact a:hover {
+	color: blue;
 }
 
 img {
@@ -72,12 +72,11 @@ h3 {
 
 a {
 	color: #E3DCDC;
-	
 	font-weight: bold;
 }
 
 p {
-	max-width: 660px;
+	max-width: 66%;
 	margin: 20px 0px 20px 10px;
 	line-height: 2;
 	border: 0px black solid;
@@ -89,6 +88,25 @@ footer {
 	border: 8px yellow;
 	background-color: #E3DCDC;
 	font-size: .8em;
+}
+
+#two_column {
+	background-color: #E3DCDC;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E3DCDC;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E3DCDC;
+	padding: 20px;
+	float: right;
+	width: 60%;
 }
 
 .clearfix:after{
