@@ -2,6 +2,19 @@
 * { padding:0; margin: 0; box-sizing:border-box; }
 
 /* this is a comment */
+/* 
+?'s for John:
+		1. How to get side-margin color to all black?
+		2. Does using INSPECTOR in "mobile" or "desktop" mode matter?
+		   Is it because "mobile" has higher resolution than desktop?
+		   Why do <li> colors not how up at all?
+		3. #wrapper is set at 60%, at 874px it fills up to 90ish%. Why?
+		4. Why is text in id="specialization" a different size than main/p 
+		   in "mobile mode"?
+		5. Why are floats in id="specialization" still functioning despite being 
+		   commanded to "none" in smaller mediaqueries?
+		6. Why does <article id="contact"> block have space on left side?
+		*/
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #222;
@@ -9,7 +22,7 @@ body {
 }
 
 #wrapper {
-	max-width: 80%;
+	max-width: 60%;
 	margin: 0 auto;
 	background-color: #E3DCDC;
 }
@@ -124,7 +137,7 @@ footer {
 	height: 0;
 }
 
-@media only screen  and (min-width: 361px) and (max-width: 768px) {
+@media only screen  and (min-width: 361px) and (max-width: 700px) {
 
 	#wrapper {
 		max-width: 90%;
@@ -138,6 +151,18 @@ footer {
 	padding: 0px 0px 0px 2em;
 	font-size: 3em;
 	}
+
+	#specialization ul {
+	margin: 1em;
+	width: auto;
+	}
+
+	li {
+	float: none;
+	width: 100%;
+	padding: .5em;
+	margin: .25em 0em;
+	background-color: gold;
 
 }
 
@@ -164,6 +189,7 @@ footer {
 	float: none;
 	width: auto;
 	padding: 0em;
+	background-color: red;
 }
 
 }
