@@ -4,16 +4,19 @@
 /* this is a comment */
 /* 
 ?'s for John:
-		1. How to get side-margin color to all black?
+		1. How to get side-margin color to all black or a different color?
 		2. Does using INSPECTOR in "mobile" or "desktop" mode matter?
 		   Is it because "mobile" has higher resolution than desktop?
 		   Why do <li> colors not how up at all?
-		3. #wrapper is set at 60%, at 874px it fills up to 90ish%. Why?
-		4. Why is text in id="specialization" a different size than main/p 
+		3. Are Media Queries written properly:
+			361-700px
+			max 360px
+		4. #wrapper is not repsonding from 80% to 90% to 100%. Why?
+		5. Why is text in id="specialization" a different size than main/p 
 		   in "mobile mode"?
-		5. Why are floats in id="specialization" still functioning despite being 
+		6. Why are floats in id="specialization" still functioning despite being 
 		   commanded to "none" in smaller mediaqueries?
-		6. Why does <article id="contact"> block have space on left side?
+		7. Why does <article id="contact"> block have space on left side?
 		*/
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -22,7 +25,7 @@ body {
 }
 
 #wrapper {
-	max-width: 60%;
+	max-width: 80%;
 	margin: 0 auto;
 	background-color: #E3DCDC;
 }
