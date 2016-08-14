@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
 * { padding:0; margin: 0; box-sizing:border-box; }
 
 /* this is a comment */
@@ -7,9 +7,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
 @import 'https://fonts.googleapis.com/css?family=Cabin:400,600';
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:300,700);
+Source+Sans+Pro:300,400,600
 </style>
 CSS:
-font-family: 'Cabin', sans-serif;
+font-family: 'Cabin' / 'Roboto Mono' / 'Source Sans Pro', sans-serif;
 /* 
 ?'s for John:
 		1. How to get side-margin color to all black or a different color?
@@ -27,7 +28,8 @@ font-family: 'Cabin', sans-serif;
 		7. Why does <article id="contact"> block have space on left side?
 		*/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 	color: #222;
 	font-size: 18px;
 }
