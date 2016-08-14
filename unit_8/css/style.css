@@ -2,6 +2,13 @@
 * { padding:0; margin: 0; box-sizing:border-box; }
 
 /* this is a comment */
+/* Alternate typeface:
+<style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+@import 'https://fonts.googleapis.com/css?family=Cabin:400,600';
+</style>
+CSS:
+font-family: 'Cabin', sans-serif;
 /* 
 ?'s for John:
 		1. How to get side-margin color to all black or a different color?
@@ -38,7 +45,7 @@ header {
 	background-color: #1f1f1f;
 	padding: 10em 0;
 	color: rgba(255,255,255,1);
-	text-shadow: 10%;
+	text-shadow: 1em;
 }
 article {
 	line-height: 1.2;
