@@ -13,25 +13,26 @@ CSS:
 font-family: 'Cabin' / 'Roboto Mono' / 'Source Sans Pro', sans-serif;
 /* 
 ?'s for John:
-		1. How to get side-margin color to all black or a different color?
-		2. Does using INSPECTOR in "mobile" or "desktop" mode matter?
+		--  How to get side-margin color to all black or a different color?
+		-- Does using INSPECTOR in "mobile" or "desktop" mode matter?
 		   Is it because "mobile" has higher resolution than desktop?
 		   Why do <li> colors not how up at all?
-		3. Are Media Queries written properly:
+		-- Are Media Queries written properly:
 			361-700px
 			max 360px
-		4. #wrapper is not repsonding from 80% to 90% to 100%. Why?
-		5. Why is text in id="specialization" a different size than main/p 
+		-- #wrapper is not repsonding from 80% to 90% to 100%. Why?
+		-- Why is text in id="specialization" a different size than main/p 
 		   in "mobile mode"?
-		6. Why are floats in id="specialization" still functioning despite being 
+		-- Why are floats in id="specialization" still functioning despite being 
 		   commanded to "none" in smaller mediaqueries?
-		7. Why does <article id="contact"> block have space on left side?
+		-- Why does <article id="contact"> block have space on left side?
 		*/
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	color: #222;
 	font-size: 18px;
+	background-color: #B0B0B0;
 }
 
 #wrapper {
@@ -58,7 +59,7 @@ article {
 	background-color: #E3DCDC;
 	font-size: 1em;
 	line-height: 1.2em;
-	padding: 0em 0em 0em .5em;
+	padding: 0em;
 }
 
 #one {
@@ -123,9 +124,6 @@ footer {
 
 #specialization {
 	background-color: none;
-}
-
-#specialization ul {
 	margin: 1em 0em 1em 3em;
 	width: 40em;
 }
@@ -150,7 +148,7 @@ footer {
 	height: 0;
 }
 
-@media only screen  and (min-width: 361px) and (max-width: 700px) {
+@media only screen  and (max-width: 700px) {
 
 	#wrapper {
 		max-width: 90%;
@@ -175,18 +173,18 @@ footer {
 	width: 100%;
 	padding: .5em;
 	margin: .25em 0em;
-	background-color: gold;
+	}
 
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 401px) {
 	#wrapper {
 		max-width: 100%;
 	}
 
 	body {
 		max-width: 100%;
-		font-size: 12px;
+		font-size: 16px;
 	}
 	
 	h1 {
@@ -198,12 +196,22 @@ footer {
 		max-width: 90%
 	}
 
+	#specialization ul {
+		width: 16em;
+		margin: auto;
+	}
+
 	#specialization li {
 	float: none;
 	width: auto;
-	padding: 0em;
-	background-color: red;
-}
-
+	padding: .5em 0;
+	}
+	#specialization li:last-of-type {
+		padding:0;
+	}
+	#specialization a {
+		padding: .5em 0;
+		display: block;
+	}
 }
 
