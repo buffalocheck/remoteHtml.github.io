@@ -1,32 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
 * { padding:0; margin: 0; box-sizing:border-box; }
 
-/* this is a comment */
-/* Alternate typeface:
-<style>
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
-@import 'https://fonts.googleapis.com/css?family=Cabin:400,600';
-@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:300,700);
-Source+Sans+Pro:300,400,600
-</style>
-CSS:
-font-family: 'Cabin' / 'Roboto Mono' / 'Source Sans Pro', sans-serif;
 /* 
-?'s for John:
-		--  How to get side-margin color to all black or a different color?
-		-- Does using INSPECTOR in "mobile" or "desktop" mode matter?
-		   Is it because "mobile" has higher resolution than desktop?
-		   Why do <li> colors not how up at all?
-		-- Are Media Queries written properly:
-			361-700px
-			max 360px
-		-- #wrapper is not repsonding from 80% to 90% to 100%. Why?
-		-- Why is text in id="specialization" a different size than main/p 
-		   in "mobile mode"?
-		-- Why are floats in id="specialization" still functioning despite being 
-		   commanded to "none" in smaller mediaqueries?
-		-- Why does <article id="contact"> block have space on left side?
-		*/
+Hi there,
+We coded & produced this site without using templates.
+You may need a site with a different look or feel & much more functionality - we can help with that too! 
+Thanks for looking under the hood! Shawn
+*/
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
@@ -149,7 +130,7 @@ footer {
 	height: 0;
 }
 
-@media only screen  and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
 
 	#wrapper {
 		max-width: 90%;
@@ -194,7 +175,7 @@ footer {
 	}
 
 	p {
-		max-width: 90%
+		max-width: 90%;
 	}
 
 	#specialization ul {
