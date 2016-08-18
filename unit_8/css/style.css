@@ -209,7 +209,7 @@ footer {
 	}
 
 	p {
-		max-width: 90%;
+		max-width: 80%;
 	}
 
 	#specialization ul {
@@ -226,6 +226,7 @@ footer {
 	#specialization li:last-of-type {
 		padding:0;
 	}
+
 	#specialization a {
 		padding: .5em 0;
 		display: block;
@@ -247,7 +248,7 @@ footer {
 	}
 
 	p {
-		max-width: 90%;
+		max-width: 80%;
 	}
 
 	#specialization {
