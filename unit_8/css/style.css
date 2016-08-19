@@ -234,6 +234,10 @@ footer {
 		padding: .5em 0;
 		display: block;
 	}
+
+	#contact {
+	margin: 1em 0em;
+	}
 }
 
 @media only screen and (max-device-width: 600px) {
@@ -257,6 +261,7 @@ footer {
 
 	#specialization {
 		width: 100%;
+		margin: 0px;
 	}
 
 	#specialization ul {
@@ -277,5 +282,9 @@ footer {
 	#specialization a {
 		padding: .5em 0 .5em 2em;
 		display: block;
+	}
+
+	#contact {
+	margin: 1em 0em;
 	}
 }
