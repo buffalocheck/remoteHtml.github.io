@@ -1,0 +1,290 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+* { padding:0; margin: 0; box-sizing:border-box; }
+
+/* 
+Hi there,
+We coded & produced this site using HTML5 & CSS but without 
+using templates. You may need a site with a different look or feel 
+& MUCH more functionality - we can help with that too! 
+Thanks for looking under the hood! Shawn
+*/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	color: #222;
+	font-size: 20px;
+	background-color: #B0B0B0;
+}
+
+#wrapper {
+	max-width: 80%;
+	margin: auto;
+	background-color: #E3DCDC;
+}
+
+header {
+	background-image: url(../images/BC_WideIMG.svg);
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #1f1f1f;
+	padding: 10em 0;
+	color: rgba(255,255,255,1);
+	text-shadow: 1em;
+}
+article {
+	line-height: 1.2;
+	padding: 0em, 0em, 0em, 2em;
+}
+
+#main {
+	background-color: #E3DCDC;
+	font-size: 1em;
+	line-height: 1.2em;
+	padding: 0em;
+}
+
+/*#one {
+	padding: 0em 0em 0em 0em;
+}*/
+
+#contact {
+	width: 100%;
+	padding: .5em 0em;
+	background-color: #1f1f1f;
+	color: #E3DCDC;
+}
+
+#contact a:hover {
+	color: #00c2ff;
+}
+
+#contact a {
+	color: white;
+}
+
+img {
+	width: 100%;
+	line-height: 0;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 6em;
+	text-shadow: 0em .01em .05em #1f1f1f;
+}
+
+h3 {
+	padding: 1.2em 0em 0em 1.5em;
+	font-size: 1.4em;
+}
+
+p {
+	max-width: 66%;
+	margin: 1em 0em 1.2em 2em;
+	line-height: 2;
+	border: 0px black solid;
+}
+
+a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0em 0em 1.2em 0em;
+}
+
+#main a:hover {
+	color: #00c2ff;
+}
+
+footer {
+	color: #222;
+	background-color: #E3DCDC;
+	max-width: 100%;
+	line-height: 2em;
+	padding: 0em 0em 1em .5em;
+	font-size: .8em;
+}
+
+#specialization {
+	margin: 1em 0em 1em 4em;
+	width: 100%;
+}
+
+#specialization li {
+	float: left;
+	padding: 0em 0em 1.2em 0em;
+	width: 34%;
+	list-style-type: none;
+}
+
+#specialization a:hover {
+	color: #00c2ff;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+/*@media only screen and (max-width: 700px) {
+
+	#wrapper {
+		max-width: 90%;
+	}
+	
+	body {
+		font-size: 16px;
+	}
+
+	h1 {
+	padding: 0px;
+	font-size: 3em;
+	}
+
+	#specialization ul {
+	margin: 1em;
+	width: auto;
+	}
+
+	li {
+	float: none;
+	width: 100%;
+	padding: .5em;
+	margin: .25em 0em;
+	}
+
+}
+
+@media only screen and (max-device-width: 700px) {
+
+	#wrapper {
+		max-width: 90%;
+	}
+	
+	body {
+		font-size: 16px;
+	}
+
+	h1 {
+	padding: 0px;
+	font-size: 3em;
+	}
+
+	#specialization {
+		width: 100%;
+	}
+
+	#specialization ul {
+	margin: 1em;
+	width: auto;
+	}
+
+	li {
+	float: none;
+	width: 100%;
+	padding: .5em;
+	margin: .25em 0em;
+	}
+
+}
+*/
+
+@media only screen and (max-width: 600px) {
+	#wrapper {
+		max-width: 100%;
+		margin: 0%;
+	}
+
+	body {
+		max-width: 100%;
+		font-size: 18px;
+	}
+	
+	h1 {
+	padding: 0em;
+	font-size: 6em;
+	}
+
+	p {
+		max-width: 80%;
+	}
+
+	#specialization ul {
+		width: 16em;
+		margin: auto;
+	}
+
+	#specialization li {
+	float: none;
+	width: auto;
+	padding: 1.5em 0em;
+	}
+
+	#specialization li:last-of-type {
+		padding:0;
+	}
+
+	#specialization a {
+		padding: .5em 0;
+		display: block;
+	}
+
+	#contact {
+	margin: 1em 0em;
+	}
+}
+
+@media only screen and (max-device-width: 600px) {
+	#wrapper {
+		max-width: 100%;
+	}
+
+	body {
+		max-width: 100%;
+		font-size: 18px;
+	}
+	
+	h1 {
+	padding: 0em;
+	font-size: 6em;
+	}
+
+	p {
+		max-width: 80%;
+	}
+
+	#specialization {
+		width: 100%;
+		margin: 0px;
+	}
+
+	#specialization ul {
+		width: 16em;
+		margin: auto;
+	}
+
+	#specialization li {
+	float: none;
+	width: auto;
+	padding: .5em 0 .5em 2em;
+	}
+
+	#specialization li:last-of-type {
+		padding:0;
+	}
+
+	#specialization a {
+		padding: .5em 0 .5em 2em;
+		display: block;
+	}
+
+	#contact {
+	margin: 1em 0em;
+	}
+}
